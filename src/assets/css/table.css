@@ -1,0 +1,50 @@
+
+  .el-table{
+    background: none;
+    color:#fff;
+  }
+  .el-table__row{
+      background:none !important;
+      color:''#07a8f9;
+    }
+  .popper__arrow::after{
+    border-right-color: #06DCC0 !important;
+  }
+  .el-popover{
+    background: #06DCC0;
+    color:#fff;
+    border:none;
+    opacity: 0.9;
+  }
+  .popper__arrow{
+
+  }
+  .el-popover__title{
+    color:#fff;
+  }
+  .el-popover--plain{
+    /*padding: 0px;*/
+  }
+  .el-table::before{
+    background-color:#185BFE;
+  }
+  .el-table>tr{
+    background-color:red !important;
+  }
+  .el-table th, .el-table tr{
+    background:none;
+    color:#fff;
+  }
+  .el-table th, .el-table tr:hover{
+    background: none;
+  }
+  /*.el-table tbody tr:hover>td { background:none;}*/
+  .el-table__row:hover{
+      background:red;
+  }
+  .el-table::before{
+    background: none;
+  }
+  .el-table__body tr:hover>td {
+    background: none !important;
+  }
